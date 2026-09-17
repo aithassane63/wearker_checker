@@ -1,0 +1,11 @@
+{
+  "consecutive_failures": 0,
+  "failure_alert_sent": false,
+  "initialized": true,
+  "last_heartbeat": "2026-09-17T19:23:54.433481+00:00",
+  "legacy_chat_ids_migrated": true,
+  "listings": {},
+  "subscribers_encrypted": "gAAAAABqrD5Lm9kugrxbzTTDUoJsQjE93DHsbfSoVSL9Ijz5G7qWAVpdn4agsYEDiFp7_WP_QSsjWUpSH86eywdAjeN_nHBYrQ==",
+  "telegram_update_offset": 192845740,
+  "version": 2
+}
