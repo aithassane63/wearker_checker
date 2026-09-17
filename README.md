@@ -63,8 +63,8 @@ VPS, aucune VM, aucun Oracle Cloud, aucun Docker, aucun hébergement payant.
 
 ## ⚙️ Comment ça marche
 
-À chaque exécution planifiée, GitHub Actions lance **20 cycles espacés de 15
-secondes**. À chaque cycle, le bot :
+À chaque exécution planifiée, GitHub Actions lance **4 cycles espacés de 90
+secondes (1 minute 30)**. À chaque cycle, le bot :
 
 1. charge l'état précédent (`state.json`) ;
 2. lit les nouvelles commandes Telegram (`/start` et `/stop`) ;
@@ -73,11 +73,11 @@ secondes**. À chaque cycle, le bot :
 5. envoie les alertes à tous les abonnés ;
 6. sauvegarde le nouvel état localement.
 
-À la fin des 20 cycles, le workflow **committe** une seule fois l'état final
+À la fin des 4 cycles, le workflow **committe** une seule fois l'état final
 dans le dépôt, puis se termine proprement.
 
 Il n'y a **aucun serveur permanent**. Chaque exécution GitHub Actions surveille
-pendant environ 4 minutes 45, puis l'exécution planifiée suivante prend le relais.
+pendant environ 4 minutes 30, puis l'exécution planifiée suivante prend le relais.
 
 ---
 
@@ -134,7 +134,7 @@ plus recevoir les messages, elle peut envoyer `/stop`.
 ## 📦 Étape 4 — Créer le dépôt et importer les fichiers
 
 1. En haut à droite sur GitHub, cliquez sur **+** puis **New repository**.
-2. Donnez un nom, par exemple `bot-crous`.
+2. Donnez un nom, par exemple `wearker_checker`.
 3. **Choisissez « Public »** (fortement recommandé — voir la section
    [Limites du plan gratuit](#-limites-du-plan-gratuit) : les dépôts publics ont
    des minutes GitHub Actions **gratuites et illimitées**). Le fichier `state.json`
@@ -154,14 +154,14 @@ plus recevoir les messages, elle peut envoyer `/stop`.
      git add .
      git commit -m "Initial commit"
      git branch -M main
-     git remote add origin https://github.com/VOTRE_COMPTE/bot-crous.git
+     git remote add origin https://github.com/VOTRE_COMPTE/wearker_checker.git
      git push -u origin main
      ```
 
 Arborescence attendue :
 
 ```
-bot-crous/
+wearker_checker/
 ├── crous_bot.py
 ├── requirements.txt
 ├── .env.example
@@ -220,9 +220,10 @@ Avant d'attendre la planification, testez tout de suite :
 
 ## ⏱️ Fréquence de surveillance (planification cron)
 
-Le bot interroge CROUS environ toutes les **15 secondes** pendant une exécution.
+Le bot interroge CROUS environ toutes les **90 secondes (1 minute 30)** pendant
+une exécution.
 La planification définie dans `.github/workflows/crous-monitor.yml` relance cette
-série de 20 contrôles toutes les 5 minutes :
+série de 4 contrôles toutes les 5 minutes :
 
 ```yaml
 - cron: "2-59/5 * * * *"   # toutes les 5 minutes (heure UTC)
@@ -241,7 +242,7 @@ exemple :
 Remarques importantes :
 
 - L'intervalle cron **minimum** autorisé par GitHub est de **5 minutes**. Les
-  contrôles à 15 secondes sont réalisés à l'intérieur de chaque exécution.
+  contrôles à 90 secondes sont réalisés à l'intérieur de chaque exécution.
 - Les heures cron sont en **UTC** (l'heure de Paris est UTC+1 en hiver, UTC+2 en été).
 - Les exécutions planifiées peuvent parfois être **légèrement retardées** quand
   la plateforme GitHub est très sollicitée. C'est normal et gratuit.
@@ -249,7 +250,7 @@ Remarques importantes :
 ### Le bot tourne-t-il en continu (24h/24) ?
 
 Oui, **de fait**. GitHub relance automatiquement une exécution toutes les 5
-minutes (ou selon votre `cron`) et chaque exécution effectue 20 contrôles. Mises
+minutes (ou selon votre `cron`) et chaque exécution effectue 4 contrôles. Mises
 bout à bout, elles assurent une surveillance quasi continue sans serveur à
 maintenir.
 
@@ -261,7 +262,7 @@ Deux points à comprendre :
   dizaines de minutes** à démarrer. Patientez, puis vérifiez l'onglet **Actions** :
   les exécutions automatiques y apparaissent avec le déclencheur **« Scheduled »**.
 
-Les contrôles d'une exécution sont espacés d'environ 15 secondes. Un court écart
+Les contrôles d'une exécution sont espacés d'environ 90 secondes. Un court écart
 peut toutefois survenir entre deux exécutions, et GitHub peut retarder le début
 d'un workflow planifié lorsque sa plateforme est chargée.
 
@@ -405,7 +406,7 @@ Pour maximiser vos chances :
   réagir en quelques secondes.
 - Gardez le **lien de la page de recherche** en favori et vos informations
   (RIB, garant, documents) prêtes.
-- Pendant les gros pics, conservez les 20 contrôles espacés de 15 secondes et
+- Pendant les gros pics, conservez les 4 contrôles espacés de 90 secondes et
   l'intervalle cron par défaut de 5 minutes sur un dépôt public.
 - La réservation reste **manuelle et rapide** : l'alerte vous fait juste gagner
   les précieuses minutes d'avance.
@@ -417,6 +418,6 @@ Pour maximiser vos chances :
 Ce bot se contente de **consulter des informations publiques** et de vous
 **notifier**. Il ne réserve pas, ne se connecte pas, ne remplit aucun formulaire
 et n'automatise aucune action sur le site CROUS. Utilisez-le de façon raisonnable
-(un contrôle toutes les 15 secondes par défaut) et dans le respect des conditions
+(un contrôle toutes les 90 secondes par défaut) et dans le respect des conditions
 d'utilisation du site CROUS. Toute réservation se fait manuellement, par vous,
 sur le site officiel.

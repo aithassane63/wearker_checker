@@ -48,8 +48,8 @@ jobs:
           # normal subscriptions without a configured chat id.
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SUBSCRIBER_ENCRYPTION_KEY: ${{ secrets.SUBSCRIBER_ENCRYPTION_KEY }}
-          MONITOR_INTERVAL_SECONDS: "15"
-          MONITOR_CYCLES_PER_RUN: "20"
+          MONITOR_INTERVAL_SECONDS: "90"
+          MONITOR_CYCLES_PER_RUN: "4"
         run: |
           for ((cycle = 1; cycle <= MONITOR_CYCLES_PER_RUN; cycle++)); do
             cycle_started=$SECONDS
