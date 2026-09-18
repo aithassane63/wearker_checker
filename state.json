@@ -4,7 +4,19 @@
   "initialized": true,
   "last_heartbeat": "2026-09-18T03:25:04.869372+00:00",
   "legacy_chat_ids_migrated": true,
-  "listings": {},
+  "listings": {
+    "2702": {
+      "address": "16, rue André Blanc Lapierre 91190 GIF-SUR-YVETTE",
+      "area": null,
+      "available": true,
+      "id": "2702",
+      "label": "T4 Colocation",
+      "rent": "7000",
+      "residence": "Saclay-George Sand",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2702"
+    }
+  },
   "subscribers_encrypted": "gAAAAABqrErCqxrDVnQUNz5MdSkkfu3nlryoT265_3Ai8NYbEL1MCXhtYgbVcfUkxKnimsG9CzEgJS_E4qJDpBx_jLTdubVFMXkvOxujrDAcB61JsRXqHPbdLVbxIw5-e0OunUKUf5K2i9VcBMfHIafndZfArAIFd4cLQyPi65yOyByjKsPKEa4=",
   "telegram_update_offset": 192845750,
   "version": 2
