@@ -15,6 +15,39 @@
       "residence": "Evry- Aunettes",
       "units": 1,
       "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1751"
+    },
+    "2702": {
+      "address": "16, rue André Blanc Lapierre 91190 GIF-SUR-YVETTE",
+      "area": null,
+      "available": true,
+      "id": "2702",
+      "label": "T4 Colocation",
+      "rent": "7000",
+      "residence": "Saclay-George Sand",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2702"
+    },
+    "2856": {
+      "address": "2 rue Sophie Germain 91400 Orsay",
+      "area": null,
+      "available": true,
+      "id": "2856",
+      "label": "T5 Colocation",
+      "rent": "7000",
+      "residence": "Saclay-Eileen Gray",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2856"
+    },
+    "2862": {
+      "address": "20, cour Pierre Vasseur 91120 - PALAISEAU",
+      "area": null,
+      "available": true,
+      "id": "2862",
+      "label": "T5 Colocation DUPLEX",
+      "rent": "7000",
+      "residence": "Saclay-Jean d'Ormesson",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2862"
     }
   },
   "subscribers_encrypted": "gAAAAABqrErCqxrDVnQUNz5MdSkkfu3nlryoT265_3Ai8NYbEL1MCXhtYgbVcfUkxKnimsG9CzEgJS_E4qJDpBx_jLTdubVFMXkvOxujrDAcB61JsRXqHPbdLVbxIw5-e0OunUKUf5K2i9VcBMfHIafndZfArAIFd4cLQyPi65yOyByjKsPKEa4=",
