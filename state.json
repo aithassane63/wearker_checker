@@ -5,17 +5,6 @@
   "last_heartbeat": "2026-09-21T11:30:10.988442+00:00",
   "legacy_chat_ids_migrated": true,
   "listings": {
-    "1714": {
-      "address": "8, place François Rabelais 28000 CHARTRES",
-      "area": null,
-      "available": true,
-      "id": "1714",
-      "label": "T1 18 à 19m2",
-      "rent": "7000",
-      "residence": "MERLEAU PONTY",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1714"
-    },
     "2555": {
       "address": "21, rue André Maginot 91400 ORSAY",
       "area": null,
@@ -48,6 +37,17 @@
       "residence": "Saclay-Jean d'Ormesson",
       "units": 1,
       "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2862"
+    },
+    "950": {
+      "address": "6, rue du Père Wresinski 28000 CHARTRES",
+      "area": null,
+      "available": true,
+      "id": "950",
+      "label": "T1 18m2",
+      "rent": "7000",
+      "residence": "DESANTI",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/950"
     }
   },
   "subscribers_encrypted": "gAAAAABqsTO0YKcoFbVa9dwHsWiYFVZqXjonls4jnt6OfB81WNytp5qWslwvjUZqldG6z8lA99moRpli_WC024umv6sFgTvhiK7UNPoGQynukThlD8D5Foa3q2LOCprdig12Mhj6SigSuSenhqAFSaR2UJC4UUO6o5nJ6oH8yO_kmX0Owsc54_U98oh6K_Et558qi_Duxgz2PaGr1uIeky5FgAphOwjvXPAGBsKWATzlkTxkbhFK4wM_8O1vUtSgQlWJQAfyzIXAYAQ8aXNh3HqlNc2xwXZiG2J8eMPcFZjcgovEZERmLh0KkZ9o31BksdQU90PhZfi_",
