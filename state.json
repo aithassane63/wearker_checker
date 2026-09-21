@@ -4,19 +4,7 @@
   "initialized": true,
   "last_heartbeat": "2026-09-20T19:28:43.643124+00:00",
   "legacy_chat_ids_migrated": true,
-  "listings": {
-    "1716": {
-      "address": "1, place des Linandes Mauves 95000 Cergy",
-      "area": null,
-      "available": true,
-      "id": "1716",
-      "label": "T1 Colocation",
-      "rent": "7000",
-      "residence": "Cergy-Linandes extension",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1716"
-    }
-  },
+  "listings": {},
   "subscribers_encrypted": "gAAAAABqrErCqxrDVnQUNz5MdSkkfu3nlryoT265_3Ai8NYbEL1MCXhtYgbVcfUkxKnimsG9CzEgJS_E4qJDpBx_jLTdubVFMXkvOxujrDAcB61JsRXqHPbdLVbxIw5-e0OunUKUf5K2i9VcBMfHIafndZfArAIFd4cLQyPi65yOyByjKsPKEa4=",
   "telegram_update_offset": 192845753,
   "version": 2
