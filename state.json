@@ -5,17 +5,6 @@
   "last_heartbeat": "2026-09-22T03:31:26.727215+00:00",
   "legacy_chat_ids_migrated": true,
   "listings": {
-    "2555": {
-      "address": "21, rue André Maginot 91400 ORSAY",
-      "area": null,
-      "available": true,
-      "id": "2555",
-      "label": "T2 Colocation",
-      "rent": "7000",
-      "residence": "Orsay-Fleming",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2555"
-    },
     "2856": {
       "address": "2 rue Sophie Germain 91400 Orsay",
       "area": null,
