@@ -37,20 +37,9 @@
       "residence": "Saclay-Jean d'Ormesson",
       "units": 1,
       "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2862"
-    },
-    "816": {
-      "address": "21, rue André Maginot 91400 ORSAY",
-      "area": null,
-      "available": true,
-      "id": "816",
-      "label": "T1 PROV",
-      "rent": "7000",
-      "residence": "Orsay-Fleming",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/816"
     }
   },
-  "subscribers_encrypted": "gAAAAABqsm3-Fgu0c8HeAFuotg5rqpK1vRy1v3UG_u3RAM-ObXB-w4vd46UcjHbi0Iv5-SqXHY-DZvXCK35HM8-vvwNiyLMDRpfCNjrjJrIPt8KHCLQ2Fsb0kQzwjtsU6t8qnOLrkMS8sInwkxyke5XjOSvhkfQHF3-omUZiHLSJ7s8y5q725evVWJ5qpaYFqehuAOw0OZd1pMPdH5l_VGpnveQWB6D8rEdcqOQJ0QkOiA5SyafKczCueXXlEunZV8Yr3ViPoQ_ehbcKLL82UEwKVoz1Rgcpi0g-Es8j0SV_moMZf_PGpCgrUWg_qu1kLt0L_JvZk9I6HfJPp2OXvAaUzUr30BNYR-BPmREmIJ7EMnrpS5AvKrU=",
-  "telegram_update_offset": 192845768,
+  "subscribers_encrypted": "gAAAAABqsrCWa1dirkfEGJF4RzEZEi4HymPzAcqGhgTmwjhB32PONdZmDInYCF12HhBxXX62Iv_JriG9VHN0QnC82fgjmgHuKNMLwwpjH5EzuPkpLNpIUVHffxJ5Z4H17Ib_O2JTiir5f4MPqCFLV_LbkG7UBGx0ON-0VeRGuPOR6vkBxt2foNgC1ohJSVrzPQm9MTy4_tGtlUKyMhO-ZTa9Z2juZ7256zYSfnk5y_8ln9R2GPuPMaYkQ-3bbg_4zrdlvbAObPLGaeUoAM_Js23dLi5btKMwKzk6NFTGzVM26saUrkkLFNBvq5g6wjV59w8eh1T1bAT-AqefCUuzVvZDfBCSl1CXJqKeRQHQWpkDIx8jA9k5qC-MUfUxoX1KnrohnRDC44f8",
+  "telegram_update_offset": 192845770,
   "version": 2
 }
