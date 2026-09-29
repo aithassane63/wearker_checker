@@ -5,16 +5,16 @@
   "last_heartbeat": "2026-09-29T03:45:20.748427+00:00",
   "legacy_chat_ids_migrated": true,
   "listings": {
-    "1571": {
-      "address": "25/27 rue des Bas-Bourgs 28000 CHARTRES",
+    "1751": {
+      "address": "1 Impasse de la Predecelle 91000 EVRY",
       "area": null,
       "available": true,
-      "id": "1571",
-      "label": "STUDIO 19m2",
+      "id": "1751",
+      "label": "T3 Colocation",
       "rent": "7000",
-      "residence": "JEAN ZAY",
+      "residence": "Evry- Aunettes",
       "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1571"
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1751"
     },
     "2555": {
       "address": "21, rue André Maginot 91400 ORSAY",
