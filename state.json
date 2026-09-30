@@ -5,39 +5,6 @@
   "last_heartbeat": "2026-09-30T03:47:00.092209+00:00",
   "legacy_chat_ids_migrated": true,
   "listings": {
-    "1716": {
-      "address": "1, place des Linandes Mauves 95000 Cergy",
-      "area": null,
-      "available": true,
-      "id": "1716",
-      "label": "T1 Colocation",
-      "rent": "7000",
-      "residence": "Cergy-Linandes extension",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1716"
-    },
-    "1751": {
-      "address": "1 Impasse de la Predecelle 91000 EVRY",
-      "area": null,
-      "available": true,
-      "id": "1751",
-      "label": "T3 Colocation",
-      "rent": "7000",
-      "residence": "Evry- Aunettes",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1751"
-    },
-    "2702": {
-      "address": "16, rue André Blanc Lapierre 91190 GIF-SUR-YVETTE",
-      "area": null,
-      "available": true,
-      "id": "2702",
-      "label": "T4 Colocation",
-      "rent": "7000",
-      "residence": "Saclay-George Sand",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2702"
-    },
     "2856": {
       "address": "2 rue Sophie Germain 91400 Orsay",
       "area": null,
