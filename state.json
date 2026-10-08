@@ -38,6 +38,17 @@
       "units": 1,
       "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2702"
     },
+    "280": {
+      "address": "4, place Pierre Mendes France 78990 ELANCOURT",
+      "area": null,
+      "available": true,
+      "id": "280",
+      "label": "T1 PMR PROV",
+      "rent": "7000",
+      "residence": "VSQ-Le Capitole",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/280"
+    },
     "2862": {
       "address": "20, cour Pierre Vasseur 91120 - PALAISEAU",
       "area": null,
@@ -48,6 +59,17 @@
       "residence": "Saclay-Jean d'Ormesson",
       "units": 1,
       "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2862"
+    },
+    "678": {
+      "address": "4, place Pierre Mendes France 78990 ELANCOURT",
+      "area": null,
+      "available": true,
+      "id": "678",
+      "label": "T1 PROV",
+      "rent": "7000",
+      "residence": "VSQ-Le Capitole",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/678"
     },
     "950": {
       "address": "6, rue du Père Wresinski 28000 CHARTRES",
