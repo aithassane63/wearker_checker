@@ -4,30 +4,7 @@
   "initialized": true,
   "last_heartbeat": "2026-10-17T23:51:04.807939+00:00",
   "legacy_chat_ids_migrated": true,
-  "listings": {
-    "2555": {
-      "address": "21, rue André Maginot 91400 ORSAY",
-      "area": null,
-      "available": true,
-      "id": "2555",
-      "label": "T2 Colocation",
-      "rent": "7000",
-      "residence": "Orsay-Fleming",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2555"
-    },
-    "2862": {
-      "address": "20, cour Pierre Vasseur 91120 - PALAISEAU",
-      "area": null,
-      "available": true,
-      "id": "2862",
-      "label": "T5 Colocation DUPLEX",
-      "rent": "7000",
-      "residence": "Saclay-Jean d'Ormesson",
-      "units": 1,
-      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2862"
-    }
-  },
+  "listings": {},
   "subscribers_encrypted": "gAAAAABqy9e37KzP-0NKH3MWMGRxLwhaw2dLAtoh0bq6U9rAuiM2ifDSCxP1oeD4rukZoZuD_SyGkUfd2rsF9p1dyZHSYCp7YFDxlskZqeTBCMzLekTuKeX5jSyc74gH9FYErrBksWEOBMyDbUI4Q040UOeeLjUZKuyR_AyO6gTy3g1VsmvKuwUhm-laZr6HqMhWZ8J2rbZEvBx2lPApgu_f_Mccx_g7tv7UKrucjmHSEpXFrY-1FcSl5f_OVyXKI47oe_Lf72uiHr8O5pJa09R_ntD5wcP8QtfOwO8Kt3_8vMwttEMBzuXGuGAwMwOMXJZs-E3ZZJtvxGwtHeLOrdF8E6SvwtiZtDjFNZNYjqAel4won0Xbj0XdgSlH4vZ5jTpWaMuYeOdnhOsCWc65JKKrPpvPb9BTsTGg1v12zgN9BkyTROXJ3t8=",
   "telegram_update_offset": 192845772,
   "version": 2
