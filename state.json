@@ -49,6 +49,17 @@
       "units": 1,
       "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2862"
     },
+    "712": {
+      "address": "8 allée de l'Université 92000 Nanterre",
+      "area": null,
+      "available": true,
+      "id": "712",
+      "label": "Chambre Confort 1",
+      "rent": "7000",
+      "residence": "Nanterre",
+      "units": 1,
+      "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/712"
+    },
     "950": {
       "address": "6, rue du Père Wresinski 28000 CHARTRES",
       "area": null,
