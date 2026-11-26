@@ -1,6 +1,6 @@
 {
-  "consecutive_failures": 0,
-  "failure_alert_sent": false,
+  "consecutive_failures": 4,
+  "failure_alert_sent": true,
   "initialized": true,
   "last_heartbeat": "2026-11-26T10:48:38.401963+00:00",
   "legacy_chat_ids_migrated": true,
